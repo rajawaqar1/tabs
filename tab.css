@@ -1,0 +1,38 @@
+.tab-div a {
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+
+.tab-div {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    background-color: antiquewhite;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+
+.tab-div a:hover {
+    background-color: rgb(150, 72, 29);
+    color: black;
+}
+
+.active {
+    background-color: rgb(150, 72, 29);
+    color: black;
+}
+
+.data-div {
+    line-height: 10px;
+    padding: 5px 20px;
+
+}
+
+.data-div span {
+    display: none;
+}
